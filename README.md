@@ -23,8 +23,6 @@ The **Bicol University Student Notice System** is a centralized platform designe
 - Mark announcements as read and track read status
 - Dashboard statistics
 
----
-
 ## 🧩 Problem Statement
 
 - Announcements are scattered across different platforms  
@@ -33,13 +31,10 @@ The **Bicol University Student Notice System** is a centralized platform designe
 - Announcements are not properly categorized or prioritized  
 - Students cannot track read and unread announcements  
 
----
 
 ## 💡 System Description
 
 The Bicol University Student Notice System provides a **centralized notice board** where administrators can manage announcements and students can easily view, filter, and track important information. This improves communication and ensures timely delivery of official notices within the university.
-
----
 
 ## 🛠️ Technologies Used
 
@@ -58,7 +53,6 @@ The Bicol University Student Notice System provides a **centralized notice board
 - XAMPP (MySQL)
 - npm for package management
 
----
 
 ## 🚀 Quick Start
 
@@ -106,7 +100,6 @@ npm run dev
 ### 5. Login
 - Admin/Faculty/Student credentials seeded in DB
 
----
 
 ## 📁 Project Structure
 
@@ -126,7 +119,6 @@ iBU-Notice-System/
 └── tailwind.config.ts  # Tailwind + shadcn config
 ```
 
----
 
 ## 👥 Stakeholders
 
@@ -134,7 +126,6 @@ iBU-Notice-System/
 - **Faculty(Faculty)** – Create/manage notices, view stats  
 - **Students** – View, filter, track announcements  
 
----
 
 ## 👨‍👩‍👧‍👦 Contributors
 
@@ -146,7 +137,6 @@ iBU-Notice-System/
 - Keira Latasha Creollo  
 - Marife Son  
 
----
 
 **Live Demo:** http://localhost:8080  
 **API Docs:** Check backend routes in `server/index.js`
