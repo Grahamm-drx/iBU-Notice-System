@@ -4,7 +4,7 @@ The **Bicol University Student Notice System** is a centralized platform designe
 
 ## 📌 Features
 
-### Admin (Teachers / Staff)
+### Admin (Developer)
 - Create, edit, and delete announcements  
 - Categorize announcements (Exam, Events, Class, General)  
 - Set announcement priority (Normal or Urgent)  
