@@ -2,8 +2,6 @@
 
 The **Bicol University Student Notice System** is a centralized platform designed to efficiently manage and distribute official university announcements. It ensures students receive important notices on time while allowing teachers, staff, and faculty to manage announcements in an organized way.
 
----
-
 ## 📌 Features
 
 ### Admin (Teachers / Staff)
