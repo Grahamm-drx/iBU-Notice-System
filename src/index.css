@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bicol University Student Notice System - Design System
+   Theme: Sky Blue, Orange Accent, Clean Academic
+   All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Modern Professional Theme - Soft Slate & Blue */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+
+    /* Clean white cards */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary - Deep Professional Blue */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Soft Gray-Blue */
+    --secondary: 214 32% 91%;
+    --secondary-foreground: 222 47% 20%;
+
+    /* Muted - Subtle Gray */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Accent - Warm Amber */
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Custom colors for blobs */
+    --blob-light: 217 70% 85%;
+    --blob-lighter: 217 60% 90%;
+
+    /* Role card colors - Professional palette */
+    --student: 217 91% 60%;
+    --student-foreground: 0 0% 100%;
+    --faculty: 38 92% 50%;
+    --faculty-foreground: 0 0% 100%;
+    --admin: 262 83% 58%;
+    --admin-foreground: 0 0% 100%;
+
+    /* Sidebar - Clean white */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 214 32% 96%;
+    --sidebar-accent-foreground: 222 47% 20%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 217 91% 60%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 32% 22%;
+    --secondary-foreground: 210 40% 90%;
+
+    --muted: 217 32% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 38 92% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 217 32% 25%;
+    --input: 217 32% 25%;
+    --ring: 217 91% 60%;
+
+    --blob-light: 217 50% 25%;
+    --blob-lighter: 217 40% 20%;
+
+    --student: 217 91% 60%;
+    --student-foreground: 0 0% 100%;
+    --faculty: 38 92% 50%;
+    --faculty-foreground: 0 0% 100%;
+    --admin: 262 83% 58%;
+    --admin-foreground: 0 0% 100%;
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217 32% 22%;
+    --sidebar-accent-foreground: 210 40% 90%;
+    --sidebar-border: 217 32% 25%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .card-shadow {
+    box-shadow: 0 20px 60px -15px hsl(217 91% 30% / 0.15),
+                0 10px 30px -10px hsl(217 91% 30% / 0.1);
+  }
+
+  .role-card-shadow {
+    box-shadow: 0 4px 20px -4px hsl(217 91% 30% / 0.2);
+  }
+
+  .role-card-shadow-hover {
+    box-shadow: 0 8px 30px -4px hsl(217 91% 30% / 0.3);
+  }
+}
+
